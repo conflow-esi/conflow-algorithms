@@ -1,0 +1,24 @@
+{
+  "name": "conflow-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.10",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  },
+  "dependencies": {
+    "javascript-lp-solver": "^1.0.3"
+  }
+}
