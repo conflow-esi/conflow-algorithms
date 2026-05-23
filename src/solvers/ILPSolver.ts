@@ -30,10 +30,11 @@
  * @packageDocumentation
  */
 
-import solver, {
-  type Model,
-  type SolveResult,
-  type VariableCoefficients,
+import solver from 'javascript-lp-solver';
+import type {
+  Model,
+  SolveResult,
+  VariableCoefficients,
 } from 'javascript-lp-solver';
 
 import type {
@@ -149,7 +150,7 @@ export class ILPSolver implements IAssignmentSolver {
     //    `Solution` instance when `full=true`. We call it with defaults, so
     //    we narrow to `SolveResult`.
     // -------------------------------------------------------------------
-    const result = solver.Solve(model) as SolveResult;
+    const result = (solver as any).Solve(model) as SolveResult;
 
     if (!result.feasible) {
       throw new Error(
