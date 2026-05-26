@@ -1,4 +1,6 @@
-<img src="./assets/esi-logo.png" alt="ESI — École Supérieure d'Informatique" height="80" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/conflow-esi/conflow-algorithms/main/assets/conflow-logo-full.png" alt="conflow-algorithms" height="120" />
+</p>
 
 # conflow-algorithms
 
@@ -10,7 +12,6 @@ Paper-reviewer assignment algorithms for scientific conference management.
 
 Assigns reviewers to papers while maximizing affinity scores and respecting capacity limits and conflict-of-interest rules. Ships two interchangeable solvers behind a single interface.
 
-Developed and maintained by [ESI — École Supérieure d'Informatique](https://esi.dz).
 
 ## Installation
 
@@ -108,4 +109,10 @@ AssignmentFormatter.groupByPaper(assignments): Record<string, string[]>
 
 ## License
 
-[ISC](./LICENSE) © [ESI — École Supérieure d'Informatique](https://esi.dz)
+[ISC](./LICENSE)
+
+---
+
+<p align="center">
+  Made at&nbsp;<a href="https://esi.dz"><img src="https://raw.githubusercontent.com/conflow-esi/conflow-algorithms/main/assets/esi-logo.png" alt="ESI — École Supérieure d'Informatique" height="40" /></a>
+</p>

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-05-27
+
+### Fixed
+- Use Conflow logo above title in README; ESI logo moved to bottom footer.
+- Use absolute raw GitHub URLs for all images so they render on npmjs.com.
+
 ## [1.0.1] - 2026-05-26
 
 ### Fixed
